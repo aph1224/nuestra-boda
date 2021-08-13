@@ -1,0 +1,24 @@
+@media (max-width: 380px) {
+    .home-body-text-1 {
+        font-size: 33px;
+    }
+    .home-body-text-2 {
+        font-size: 70px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .home-body-text-1 {
+        font-size: 30px;
+    }
+    .home-body-text-2 {
+        font-size: 65px;
+    }
+}
+
+@media (max-width: 280px) {
+    .home-body-text-2 {
+        font-size: 58px;
+    }
+}

@@ -1,0 +1,51 @@
+
+.big-day-container {
+    position: relative;
+    width: 100%; height: auto;
+    text-align: center;
+
+}
+
+.big-day-title {
+    font-family: GreatVibes;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+}
+
+.big-day-text {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+
+}
+
+.big-day-ico {
+    width: 50px; height: 50px;
+}
+
+.big-day-button {
+    text-decoration: none;
+}
+
+.big-day-map {
+    display: block;
+}
+
+.big-day-img {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/cover/cover_3.jpg");
+    width: 100%; height: 400px;
+}
+
+
+.wedding-button {
+    position: relative;
+    top: 50%;
+    margin-top: -20px;
+}

@@ -1,0 +1,199 @@
+body {
+    font-family: FuturaBook, sans-serif;
+    background: #FFF;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "GreatVibes";
+    src: url("../typo/GreatVibes.ttf");
+}
+@font-face {
+    font-family: "FuturaBook";
+    src: url("../typo/Futura-book.ttf");
+}
+
+.header {
+    position: relative;
+    width: 100%; height: 100px;
+    background: #FFF;
+    text-align: center;
+    display: block;
+}
+.header-link {
+    text-decoration: none;
+    padding: 38px 35px;
+    margin: 0 -2px 0 -3px;
+    color: #000;
+    display: inline-block;
+
+    transition: color 0.3s;
+}
+.header-link:hover {
+    color: #366B31;
+}
+
+
+
+.responsive-header {
+    position: relative;
+    width: 100%; height: 100px;
+    background: #FFF;
+    display: none;
+}
+.responsive-header-button {
+    position: absolute;
+    top: 50%; left: 30px;
+    margin-top: -20px;
+}
+.responsive-header-ico-container {
+    position: absolute;
+    top: 50%; right: 30px;
+	width: 50px; height: 50px;
+    margin-top: -25px;
+    cursor: pointer;
+	background-color: #BA913C;
+}
+.responsive-header-ico-container:hover {
+	background-color: #AE8738;
+}
+.responsive-header-ico-circle {
+	position: absolute;
+	top: 50%;
+	width: 10px; height: 10px;
+	border-radius: 100%;
+	background-color: #FFF;
+	margin-top: -5px;
+}
+.responsive-header-ico-circle-1 {
+	left: 5px;
+}
+.responsive-header-ico-circle-2 {
+	left: 20px;
+}
+.responsive-header-ico-circle-3 {
+	left: 35px;
+}
+
+
+
+
+
+
+.responsive-menu-background {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 0;
+    background: #7FA47C;
+    transition: height 0.3s;
+    overflow: hidden;
+
+    text-align: center;
+}
+.responsive-menu-ico-container {
+    position: absolute;
+    top: 25px; right: 30px;
+	width: 50px; height: 50px;
+    cursor: pointer;
+	background-color: #BA913C;
+}
+.responsive-menu-ico-container:hover {
+	background-color: #AE8738;
+}
+.responsive-menu-ico-pipe {
+	position: absolute;
+	top: 23px; left: 5px;
+	width: 40px; height: 5px;
+	border-radius: 25px;
+	background-color: #FFF;
+}
+.responsive-menu-ico-pipe-1 {
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.responsive-menu-ico-pipe-2 {
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+.responsive-menu-options-container {
+    position: absolute;
+    top: 100px; left: 0;
+    width: 100%; height: 100%;
+}
+.responsive-menu-options {
+    position: relative;
+    width: 100%; height: 50px;
+    background: transparent;
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+    color: #FFF;
+    font-size: 20px;
+    font-family: FuturaBook, sans-serif;
+
+    transition: background 0.3s, color 0.3s;
+}
+.responsive-menu-options:hover {
+    background: #FFF;
+    color: #7FA47C;
+}
+
+
+
+.footer {
+    position: relative;
+    width: 100%; height: 40px;
+    background: #7FA47C;
+    font-size: 15px;
+    text-align: center;
+    color: #FFF;
+    line-height: 40px;
+}
+
+
+
+.main-button {
+    height: 40px;
+    background: #BA913C;
+    border: 0;
+    color: #FFF;
+    padding: 10px 50px;
+    outline: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.main-button:hover {
+    background: #AE8738;
+}
+
+
+
+
+
+/* Div que se muestra antes y durante la carga de la página */
+#load_screen {
+    position: fixed;
+    top: 0px; left: 0px;
+    width: 100%; height: 100%;
+    background-color: rgb(0,0,0);
+    z-index: 10;
+}
+
+#loading {
+    position: absolute;
+    top: 50%; left: 0px;
+    width: 100%; height: 70px;
+    margin-top: -35px;
+    
+    text-align: center;
+    color: #FFF;
+    font-size: 50px;
+}
+
+
+
+.main-ico {
+    width: 50px; height: 50px;
+    padding: 5px;
+}

@@ -1,0 +1,25 @@
+.rsvp-body-container {
+    position: relative;
+    width: 100%; height: auto;
+    text-align: center;
+}
+
+.rsvp-input {
+    border: 0;
+    border-bottom: 1px solid #524261;
+    background: transparent;
+    width: 50px;
+    font-size: 16px;
+    text-align: center;
+}
+.rsvp-input:focus {
+    outline: none;
+}
+
+.rsvp-long-row {
+    width: 250px;
+}
+.rsvp-button {
+	font-family: FuturaBook, sans-serif;
+    font-size: 20px;
+}

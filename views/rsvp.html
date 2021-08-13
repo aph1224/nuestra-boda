@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RSVP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="application-name" content="Boda de Regina y Alan" />
+		<meta name="description" content="El gran día llegó y nos gustaría que nos acompañaras en este gran momento" />
+		
+        <link rel="shortcut icon" type="image/png" href="../resources/img/ico/ring-ico.png" />
+        <link rel="stylesheet" type="text/css" href="../resources/css/general.css" />
+        <link rel="stylesheet" type="text/css" href="../resources/css/mediaquery/generalMQ.css" />
+        <script type="text/javascript" src="../controller/general.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="../resources/css/rsvp.css" />
+    </head>
+    <body>
+
+
+
+        <!--PRE-LOADING PAGE-->
+        <div id="load_screen">
+            <div id="loading">
+                Cargando nuestra boda...
+            </div>
+        </div>
+
+
+
+        <!--HEADER-->
+        <div class="header">
+            <a href="home.html" class="header-link">INICIO</a>
+            <a href="wedding.html" class="header-link">NUESTRA BODA</a>
+            <a href="details.html" class="header-link">DETALLES</a>
+            <a href="#" class="header-link">RSVP</a>
+        </div>
+        <!--RESPONSIVE HEADER-->
+        <div class="responsive-header">
+            <div class="responsive-header-button">
+                <button class="main-button">RSVP</button>
+            </div>
+			<div class="responsive-header-ico-container" onclick="open_menu();">
+				<div class="responsive-header-ico-circle responsive-header-ico-circle-1"></div>
+				<div class="responsive-header-ico-circle responsive-header-ico-circle-2"></div>
+				<div class="responsive-header-ico-circle responsive-header-ico-circle-3"></div>
+            </div>
+        </div>
+
+
+
+        <!--BODY-->
+        <div class="rsvp-body-container">
+            <p>Ayúdanos a saber a quienes veremos en nuestra boda</p>
+            <img alt="RSVP" src="../resources/img/ico/leaf-ico.png" width="50" height="50" /><br/><br/>
+            <form action="https://formsubmit.co/isc.aph@gmail.com" method="POST">
+                <label>Nombre de la familia</label><br/>
+                <input type="text" name="Familia" required class="rsvp-input rsvp-long-row"><br/><br/>
+                <label>Cantidad de adultos</label><br/>
+                <input type="number" name="Adultos" required class="rsvp-input" value="0"><br/><br/>
+                <label>Cantidad de niños</label><br/>
+                <input type="number" name="Niños" required class="rsvp-input" value="0"><br/><br/>
+                <button type="submit" class="main-button rsvp-button">Enviar</button>
+            </form>
+            <br/><br/>
+        </div>
+
+
+
+        <!--FOOTER-->
+        <div class="footer">
+            <label>2021 - Regina & Alan</label>
+        </div>
+
+
+
+        <!--RESPONSIVE MENU-->
+        <div class="responsive-menu-background" id="responsive-menu-background">
+            <div class="responsive-menu-ico-container" onclick="close_menu();">
+				<div class="responsive-menu-ico-pipe responsive-menu-ico-pipe-1"></div>
+				<div class="responsive-menu-ico-pipe responsive-menu-ico-pipe-2"></div>
+            </div>
+            <div class="responsive-menu-options-container">
+                <button class="responsive-menu-options" onclick="chage_page('h');">INICIO</button>
+                <button class="responsive-menu-options" onclick="chage_page('w');">NUESTRA BODA</button>
+                <button class="responsive-menu-options" onclick="chage_page('d');">DETALLES</button>
+                <button class="responsive-menu-options">RSVP</button>
+            </div>
+        </div>
+
+
+
+    </body>
+</html>

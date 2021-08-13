@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nuestra boda</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="application-name" content="Boda de Regina y Alan" />
+		<meta name="description" content="El gran día llegó y nos gustaría que nos acompañaras en este gran momento" />
+		
+        <link rel="shortcut icon" type="image/png" href="../resources/img/ico/ring-ico.png" />
+        <link rel="stylesheet" type="text/css" href="../resources/css/general.css" />
+        <link rel="stylesheet" type="text/css" href="../resources/css/mediaquery/generalMQ.css" />
+        <script type="text/javascript" src="../controller/general.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="../resources/css/wedding.css" />
+        <link rel="stylesheet" type="text/css" href="../resources/css/mediaquery/weddingMQ.css" />
+    </head>
+    <body>
+
+
+
+        <!--PRE-LOADING PAGE-->
+        <div id="load_screen">
+            <div id="loading">
+                Cargando nuestra boda...
+            </div>
+        </div>
+
+
+
+        <!--HEADER-->
+        <div class="header">
+            <a href="home.html" class="header-link">INICIO</a>
+            <a href="#" class="header-link">NUESTRA BODA</a>
+            <a href="details.html" class="header-link">DETALLES</a>
+            <a href="rsvp.html" class="header-link">RSVP</a>
+        </div>
+        <!--RESPONSIVE HEADER-->
+        <div class="responsive-header">
+            <div class="responsive-header-button">
+                <button class="main-button" onclick="chage_page('r');">RSVP</button>
+            </div>
+			<div class="responsive-header-ico-container" onclick="open_menu();">
+				<div class="responsive-header-ico-circle responsive-header-ico-circle-1"></div>
+				<div class="responsive-header-ico-circle responsive-header-ico-circle-2"></div>
+				<div class="responsive-header-ico-circle responsive-header-ico-circle-3"></div>
+            </div>
+        </div>
+
+
+        <!--BODY-->
+        <div class="big-day-container">
+            <p class="big-day-title">El gran día ha llegado...</p>
+            <img alt="BigDay" src="../resources/img/ico/rose-ico.png" class="main-ico" />
+            <p class="big-day-text">¿Cuándo?</p>
+            <p>Sábado 11 de septiembre de 2021 | 7:00 pm</p>
+            <img alt="BigDay" src="../resources/img/ico/seed-ico.png" class="main-ico" />
+            <p class="big-day-text">¿Dónde?</p>
+            <p>Hacienda La Cassia <br/> Blvd. Aeropuerto #2401, Fracciones de los Aguirre, 37680 León, Gto.<br/><b>Salón 14</b></p>
+            <img alt="BigDay" src="../resources/img/ico/seed-ico.png" class="big-day-ico" />
+            <p class="big-day-text">Ubicación</p>
+            <div class="big-day-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.0846469107864!2d-101.56603981307897!3d21.051350906087237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b971fcf85c59d%3A0xafa1d494bf6f7025!2sHacienda%20La%20cassia!5e0!3m2!1ses!2smx!4v1628400025243!5m2!1ses!2smx" width="650" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <br/>
+            <a class="main-button big-day-button" href="https://goo.gl/maps/RBpWLUFf8AT63rD66" target="_blank">Abrir en Google Maps</a>
+            <br/><br/><br/>
+            <div class="big-day-img">
+                <button class="main-button wedding-button" onclick="chage_page('r');">RSVP</button>
+            </div>
+        </div>
+
+
+
+        <!--FOOTER-->
+        <div class="footer">
+            <label>2021 - Regina & Alan</label>
+        </div>
+
+
+
+        <!--RESPONSIVE MENU-->
+        <div class="responsive-menu-background" id="responsive-menu-background">
+            <div class="responsive-menu-ico-container" onclick="close_menu();">
+				<div class="responsive-menu-ico-pipe responsive-menu-ico-pipe-1"></div>
+				<div class="responsive-menu-ico-pipe responsive-menu-ico-pipe-2"></div>
+            </div>
+            <div class="responsive-menu-options-container">
+                <button class="responsive-menu-options" onclick="chage_page('h')">INICIO</button>
+                <button class="responsive-menu-options">NUESTRA BODA</button>
+                <button class="responsive-menu-options" onclick="chage_page('d')">DETALLES</button>
+                <button class="responsive-menu-options" onclick="chage_page('r')">RSVP</button>
+            </div>
+        </div>
+
+    </body>
+</html>
